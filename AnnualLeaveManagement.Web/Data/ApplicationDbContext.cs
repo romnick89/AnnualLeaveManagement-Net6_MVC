@@ -12,6 +12,5 @@ namespace AnnualLeaveManagement.Web.Data
 
         public DbSet<AnnualLeaveType> AnnualLeaveTypes { get; set; }
         public DbSet<AnnualLeaveAllocation> AnnualLeaveAllocations { get; set; }
-
     }
 }

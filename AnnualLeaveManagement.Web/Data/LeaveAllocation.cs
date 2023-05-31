@@ -1,14 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AnnualLeaveManagement.Web.Data
+namespace LeaveManagement.Web.Data
 {
-    public class AnnualLeaveAllocation : BaseEntity
+    public class LeaveAllocation : BaseEntity
     {       
         public int NumberOfDays { get; set; }
 
         [ForeignKey("AnnualLeaveTypeId")]
-        public AnnualLeaveType AnnualLeaveType { get; set; }
-        public int AnnualLeaveTypeId { get; set; }
+        public LeaveType LeaveType { get; set; }
+        public int LeaveTypeId { get; set; }
 
         public string EmployeeId { get; set; }
     }

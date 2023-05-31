@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-AnnualLeaveManagement.Web-B44B2D1D-5CD7-4BC6-BAFF-B18846BC88B3</UserSecretsId>
+    <UserSecretsId>aspnet-LeaveManagement.Web-B44B2D1D-5CD7-4BC6-BAFF-B18846BC88B3</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

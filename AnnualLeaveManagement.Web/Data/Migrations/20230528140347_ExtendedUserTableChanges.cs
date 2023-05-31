@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace AnnualLeaveManagement.Web.Data.Migrations
+namespace LeaveManagement.Web.Data.Migrations
 {
     public partial class ExtendedUserTableChanges : Migration
     {

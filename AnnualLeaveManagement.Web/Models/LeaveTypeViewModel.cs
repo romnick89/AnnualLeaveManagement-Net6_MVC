@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AnnualLeaveManagement.Web.Models
+namespace LeaveManagement.Web.Models
 {
     public class LeaveTypeViewModel
     {

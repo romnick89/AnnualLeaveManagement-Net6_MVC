@@ -1,8 +1,8 @@
-﻿using AnnualLeaveManagement.Web.Models;
+﻿using LeaveManagement.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace AnnualLeaveManagement.Web.Controllers
+namespace LeaveManagement.Web.Controllers
 {
     public class HomeController : Controller
     {

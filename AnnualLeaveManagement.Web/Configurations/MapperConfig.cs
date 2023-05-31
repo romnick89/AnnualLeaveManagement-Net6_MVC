@@ -1,14 +1,14 @@
-﻿using AnnualLeaveManagement.Web.Data;
-using AnnualLeaveManagement.Web.Models;
+﻿using LeaveManagement.Web.Data;
+using LeaveManagement.Web.Models;
 using AutoMapper;
 
-namespace AnnualLeaveManagement.Web.Configurations
+namespace LeaveManagement.Web.Configurations
 {
     public class MapperConfig : Profile
     {
         public MapperConfig()
         {
-            CreateMap<AnnualLeaveType, LeaveTypeViewModel>().ReverseMap();
+            CreateMap<LeaveType, LeaveTypeViewModel>().ReverseMap();
         }
     }
 }

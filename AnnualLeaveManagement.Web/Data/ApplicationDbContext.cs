@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace AnnualLeaveManagement.Web.Data
+namespace LeaveManagement.Web.Data
 {
     public class ApplicationDbContext : IdentityDbContext<Employee>
     {
@@ -10,7 +10,7 @@ namespace AnnualLeaveManagement.Web.Data
         {
         }
 
-        public DbSet<AnnualLeaveType> AnnualLeaveTypes { get; set; }
-        public DbSet<AnnualLeaveAllocation> AnnualLeaveAllocations { get; set; }
+        public DbSet<LeaveType> AnnualLeaveTypes { get; set; }
+        public DbSet<LeaveAllocation> AnnualLeaveAllocations { get; set; }
     }
 }
